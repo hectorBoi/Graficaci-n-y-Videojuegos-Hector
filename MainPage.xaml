@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="Graficacion.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Graficacion"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid BorderBrush="#FFE32525">
+        <Rectangle Stroke="Black" Fill="#FFD0DBD8"/>
+        <TextBox x:Name="Nombre" HorizontalAlignment="Center" Margin="0,254,0,0" TextWrapping="Wrap" Text="Hector Emiliano Zepeda González" VerticalAlignment="Top" TextChanged="TextBox_TextChanged_1" FontSize="30" BorderBrush="{x:Null}"/>
+        <TextBox x:Name="ID" HorizontalAlignment="Center" Margin="0,360,0,0" TextWrapping="Wrap" Text="16896" VerticalAlignment="Top" TextChanged="TextBox_TextChanged_3" FontSize="22" BorderBrush="{x:Null}"/>
+        <TextBox x:Name="Materia" HorizontalAlignment="Center" Margin="0,546,0,0" TextWrapping="Wrap" Text="Graficación y Videojuegos" VerticalAlignment="Top" TextChanged="TextBox_TextChanged_2" FontSize="22" BorderBrush="{x:Null}" SelectionHighlightColor="{x:Null}"/>
+    </Grid>
+</Page>
